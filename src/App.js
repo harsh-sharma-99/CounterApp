@@ -19,38 +19,11 @@ function App() {
   };
 
   return (
-    // <div class="columns is-multiline is-mobile has-text-centered">
-    //   <div class="column is-one-quarter">
-    //     <code>is-one-quarter</code>
-    //   </div>
-    //   <div class="column is-one-quarter">
-    //     <code>is-one-quarter</code>
-    //   </div>
-    //   <div class="column is-one-quarter">
-    //     <code>is-one-quarter</code>
-    //   </div>
-    //   <div class="column is-one-quarter">
-    //     <code>is-one-quarter</code>
-    //   </div>
-    //   <div class="column is-half">
-    //     <code>is-half</code>
-    //   </div>
-    //   <div class="column is-one-quarter">
-    //     <code>is-one-quarter</code>
-    //   </div>
-    //   <div class="column is-one-quarter">
-    //     <code>is-one-quarter</code>
-    //   </div>
-    //   <div class="column is-one-quarter">
-    //     <code>is-one-quarter</code>
-    //   </div>
-    //   <div class="column">Auto</div>
-    // </div>
-
     <div className=" container  ">
       <div className="box title is-1 has-background-grey-light ">
         <h1 className="has-text-centered has-text-light">COUNTER</h1>
       </div>
+
       <h1 className="box has-text-centered title is-1">{count}</h1>
       <br />
       <progress class="progress is-medium is-info" max="100">
